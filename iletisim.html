@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Ebru ŞENER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Benimle İletişim Kur</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="projelerim.html">Projelerim</a>
+            <a href="hakkimda.html">Hakkımda</a>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <form id="contactForm" onsubmit="submitForm(event)">
+            <input type="text" placeholder="Adınız" required>
+            <input type="email" placeholder="Email Adresiniz" required>
+            <textarea placeholder="Mesajınız" required></textarea>
+            <button type="submit">Gönder</button>
+        </form>
+        <p id="formMessage" style="display: none; color:black; margin-top: 20px;">Mesajınız gönderildi!</p>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2024 Ebru ŞENER. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script>
+        // Form gönderildiğinde mesaj göster
+        function submitForm(event) {
+            event.preventDefault(); // Formun sayfayı yenilemesini engelle
+            document.getElementById("formMessage").style.display = "block"; // Mesajı göster
+            document.getElementById("contactForm").reset(); // Formu sıfırla
+        }
+    </script>
+</body>
+</html>

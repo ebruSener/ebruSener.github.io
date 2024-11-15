@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #414e40;
+    color: white;
+    padding: 20px 0;
+}
+
+#nav-menu a, nav a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro, .content-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.profil-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.intro h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#saat {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.project {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sosyalmedya {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#sosyalmedya a {
+    margin: 0 10px;
+}
+
+.ikon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.ikon:hover {
+    transform: scale(1.2);
+}
+
+.project-description {
+    margin-top: 10px;
+}
+
+.project-description p {
+    font-size: 14px;
+    color: #555;
+}
+
+.toggle-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.toggle-btn:hover {
+    background-color: #444;
+}
+/* İletişim Formu Genel Ayarlar */
+#contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#contactForm textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+#contactForm button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #555;
+}
+
+/* Hover ve Focus Efektleri */
+#contactForm input[type="text"]:focus,
+#contactForm input[type="email"]:focus,
+#contactForm textarea:focus {
+    outline: none;
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(136, 136, 136, 0.5);
+}

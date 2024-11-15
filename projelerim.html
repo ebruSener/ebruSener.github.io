@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projelerim - Ebru ŞENER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Projelerim</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="hakkimda.html">Hakkımda</a>
+            <a href="iletisim.html">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <div class="project">
+            <img src="resimler/proje1.jpg" alt="Proje 1">
+            <div class="project-description">
+                <h3>Çay Kalitesini Sınıflandırma</h3>
+                <p class="description-short">Bu proje, çay üretimi sürecinde kalite kontrolü sağlamak ve tarımsal verimliliği artırmak amacıyla tasarlanmış bir drone sistemi geliştirmeyi hedeflemektedir...</p>
+                <p class="description-full" style="display: none;">Bu proje, çay üretimi sürecinde kalite kontrolü sağlamak ve tarımsal verimliliği artırmak amacıyla tasarlanmış bir drone sistemi geliştirmeyi hedeflemektedir. Drone, yüksek çözünürlüklü kamera ve görüntü işleme algoritmaları kullanarak çay tarlalarını tarayacak, arazideki yabani otları ve hastalıkları tespit edecek. Çay fabrikalarına yönelik satışlar yapılacak, ayrıca arazi sahiplerine yalnızca kalite kontrol hizmeti sunulacaktır. Proje, çay üreticilerine verimli, düşük maliyetli ve hızlı bir çözüm sunmayı amaçlamaktadır.</p>
+                <button class="toggle-btn" onclick="toggleDescription(this)">Daha Fazla Göster</button>
+            </div>
+        </div>
+    
+        <div class="project">
+            <img src="resimler/proje2.jpg" alt="Proje 2">
+            <div class="project-description">
+                <h3>Asansör Projesi</h3>
+                <p class="description-short">Günümüzde asansör bulunmayan yapı neredeyse kalmamıştır. Özellikle çok katlı binalarda ve hastane gibi asansörün çok sık kullanıldığı yapılarda asansörler sık sık gereksiz yere meşgul edilmektedir...</p>
+                <p class="description-full" style="display: none;">Günümüzde asansör bulunmayan yapı neredeyse kalmamıştır. Özellikle çok katlı binalarda ve hastane gibi asansörün çok sık kullanıldığı yapılarda asansörler sık sık gereksiz yere meşgul edilmektedir. Bu durum herkes için zaman kaybı meydana getirmektedir. Özellikle hastanede asansör bekleyen hastalar için bu durum daha da büyük bir sorun oluşturmaktadır. Bu projedeki amacımız bu zaman kayıplarını engelleyip asansör kullanımını daha seri ve pratik bir hale getirmektir.</p>
+                <button class="toggle-btn" onclick="toggleDescription(this)">Daha Fazla Göster</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2024 Ebru ŞENER. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
